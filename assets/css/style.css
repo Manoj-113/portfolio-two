@@ -423,6 +423,29 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.resumeDownload {
+	background-color:#002b53;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+  align-items: center;
+}
+.resumeDownload:hover {
+	background-color:#e6e6e6;
+}
+.resumeDownload:active {
+	position:relative;
+	top:1px;
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -434,7 +457,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid hsl(215, 66%, 36%);
   position: relative;
 }
 
